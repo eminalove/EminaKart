@@ -1,0 +1,102 @@
+# Blender 5.0.0 MTL File: 'PodiumScene.blend'
+# www.blender.org
+
+newmtl Bricks.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Castle/bricks.png
+
+newmtl Flag.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Castle/Flag.png
+
+newmtl Grass.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Castle/grass.png
+
+newmtl Path
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Castle/path.png
+
+newmtl Roof
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Castle/roof.png
+
+newmtl Sand
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Castle/sand.png
+
+newmtl Tree.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Castle/Tree.png
+map_d C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/models/C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Tree.png
+
+newmtl Walls
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Castle/wall.png
+
+newmtl Window.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Castle/Window.png
+map_d C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Castle/Window.png
+
+newmtl Window2.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+illum 2
+map_Kd C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Castle/Window2.png
+map_d C:/Users/davko/Xaverian/OneDrive - Xaverian College/Documents/CS/Projects/CSProject/res/textures/Castle/Window2.png

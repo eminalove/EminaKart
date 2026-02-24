@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{9b8b5682-641d-4161-bfd9-3458537d705d}</ProjectGuid>
+    <RootNamespace>KonradKart</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)include\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(ProjectDir)include\lib\;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions);WITH_WINMM;WITH_WINMM</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)include\soloud;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions);WITH_WINMM;WITH_WINMM</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(ProjectDir)include\soloud;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="camera.cpp" />
+    <ClCompile Include="character_scene.cpp" />
+    <ClCompile Include="controller.cpp" />
+    <ClCompile Include="cpu_racer.cpp" />
+    <ClCompile Include="default_entity.cpp" />
+    <ClCompile Include="entity_manager.cpp" />
+    <ClCompile Include="entity_shader.cpp" />
+    <ClCompile Include="game_scene.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="gui_manager.cpp" />
+    <ClCompile Include="gui_shader.cpp" />
+    <ClCompile Include="gui_text.cpp" />
+    <ClCompile Include="human_racer.cpp" />
+    <ClCompile Include="include\soloud\audiosource\wav\dr_impl.cpp" />
+    <ClCompile Include="include\soloud\audiosource\wav\soloud_wav.cpp" />
+    <ClCompile Include="include\soloud\audiosource\wav\soloud_wavstream.cpp" />
+    <ClCompile Include="include\soloud\audiosource\wav\stb_vorbis.c" />
+    <ClCompile Include="include\soloud\soloud.cpp" />
+    <ClCompile Include="include\soloud\soloud_audiosource.cpp" />
+    <ClCompile Include="include\soloud\soloud_bus.cpp" />
+    <ClCompile Include="include\soloud\soloud_core_3d.cpp" />
+    <ClCompile Include="include\soloud\soloud_core_basicops.cpp" />
+    <ClCompile Include="include\soloud\soloud_core_faderops.cpp" />
+    <ClCompile Include="include\soloud\soloud_core_filterops.cpp" />
+    <ClCompile Include="include\soloud\soloud_core_getters.cpp" />
+    <ClCompile Include="include\soloud\soloud_core_setters.cpp" />
+    <ClCompile Include="include\soloud\soloud_core_voicegroup.cpp" />
+    <ClCompile Include="include\soloud\soloud_core_voiceops.cpp" />
+    <ClCompile Include="include\soloud\soloud_fader.cpp" />
+    <ClCompile Include="include\soloud\soloud_fft.cpp" />
+    <ClCompile Include="include\soloud\soloud_fft_lut.cpp" />
+    <ClCompile Include="include\soloud\soloud_file.cpp" />
+    <ClCompile Include="include\soloud\soloud_filter.cpp" />
+    <ClCompile Include="include\soloud\soloud_misc.cpp" />
+    <ClCompile Include="include\soloud\soloud_queue.cpp" />
+    <ClCompile Include="include\soloud\soloud_thread.cpp" />
+    <ClCompile Include="include\soloud\winmm\soloud_winmm.cpp" />
+    <ClCompile Include="keyboard_controller.cpp" />
+    <ClCompile Include="leaderboard_scene.cpp" />
+    <ClCompile Include="loading_scene.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="menu_scene.cpp" />
+    <ClCompile Include="model.cpp" />
+    <ClCompile Include="multitexture_model.cpp" />
+    <ClCompile Include="options_scene.cpp" />
+    <ClCompile Include="particle_system.cpp" />
+    <ClCompile Include="podium_scene.cpp" />
+    <ClCompile Include="racer.cpp" />
+    <ClCompile Include="scene_manager.cpp" />
+    <ClCompile Include="settings.cpp" />
+    <ClCompile Include="shader_program.cpp" />
+    <ClCompile Include="sky_shader.cpp" />
+    <ClCompile Include="sound_manager.cpp" />
+    <ClCompile Include="test_shader.cpp" />
+    <ClCompile Include="texture.cpp" />
+    <ClCompile Include="textured_model.cpp" />
+    <ClCompile Include="track.cpp" />
+    <ClCompile Include="tracks_scene.cpp" />
+    <ClCompile Include="transition.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h" />
+    <ClInclude Include="character.h" />
+    <ClInclude Include="character_type.h" />
+    <ClInclude Include="character_scene.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="controller.h" />
+    <ClInclude Include="cpu_racer.h" />
+    <ClInclude Include="default_entity.h" />
+    <ClInclude Include="empty_entity.h" />
+    <ClInclude Include="entity.h" />
+    <ClInclude Include="entity_manager.h" />
+    <ClInclude Include="entity_shader.h" />
+    <ClInclude Include="font.h" />
+    <ClInclude Include="gamestate.h" />
+    <ClInclude Include="game_scene.h" />
+    <ClInclude Include="generic_controller.h" />
+    <ClInclude Include="gui_button.h" />
+    <ClInclude Include="gui_image.h" />
+    <ClInclude Include="gui_manager.h" />
+    <ClInclude Include="gui_object.h" />
+    <ClInclude Include="gui_shader.h" />
+    <ClInclude Include="gui_text.h" />
+    <ClInclude Include="human_racer.h" />
+    <ClInclude Include="include\soloud\audiosource\wav\dr_flac.h" />
+    <ClInclude Include="include\soloud\audiosource\wav\dr_mp3.h" />
+    <ClInclude Include="include\soloud\audiosource\wav\dr_wav.h" />
+    <ClInclude Include="include\soloud\audiosource\wav\stb_vorbis.h" />
+    <ClInclude Include="include\soloud\soloud.h" />
+    <ClInclude Include="include\soloud\soloud_audiosource.h" />
+    <ClInclude Include="include\soloud\soloud_bassboostfilter.h" />
+    <ClInclude Include="include\soloud\soloud_biquadresonantfilter.h" />
+    <ClInclude Include="include\soloud\soloud_bus.h" />
+    <ClInclude Include="include\soloud\soloud_c.h" />
+    <ClInclude Include="include\soloud\soloud_dcremovalfilter.h" />
+    <ClInclude Include="include\soloud\soloud_echofilter.h" />
+    <ClInclude Include="include\soloud\soloud_error.h" />
+    <ClInclude Include="include\soloud\soloud_fader.h" />
+    <ClInclude Include="include\soloud\soloud_fft.h" />
+    <ClInclude Include="include\soloud\soloud_fftfilter.h" />
+    <ClInclude Include="include\soloud\soloud_file.h" />
+    <ClInclude Include="include\soloud\soloud_file_hack_off.h" />
+    <ClInclude Include="include\soloud\soloud_file_hack_on.h" />
+    <ClInclude Include="include\soloud\soloud_filter.h" />
+    <ClInclude Include="include\soloud\soloud_flangerfilter.h" />
+    <ClInclude Include="include\soloud\soloud_freeverbfilter.h" />
+    <ClInclude Include="include\soloud\soloud_internal.h" />
+    <ClInclude Include="include\soloud\soloud_lofifilter.h" />
+    <ClInclude Include="include\soloud\soloud_misc.h" />
+    <ClInclude Include="include\soloud\soloud_monotone.h" />
+    <ClInclude Include="include\soloud\soloud_noise.h" />
+    <ClInclude Include="include\soloud\soloud_openmpt.h" />
+    <ClInclude Include="include\soloud\soloud_queue.h" />
+    <ClInclude Include="include\soloud\soloud_robotizefilter.h" />
+    <ClInclude Include="include\soloud\soloud_sfxr.h" />
+    <ClInclude Include="include\soloud\soloud_speech.h" />
+    <ClInclude Include="include\soloud\soloud_tedsid.h" />
+    <ClInclude Include="include\soloud\soloud_thread.h" />
+    <ClInclude Include="include\soloud\soloud_vic.h" />
+    <ClInclude Include="include\soloud\soloud_vizsn.h" />
+    <ClInclude Include="include\soloud\soloud_wav.h" />
+    <ClInclude Include="include\soloud\soloud_waveshaperfilter.h" />
+    <ClInclude Include="include\soloud\soloud_wavstream.h" />
+    <ClInclude Include="keyboard_controller.h" />
+    <ClInclude Include="leaderboard_scene.h" />
+    <ClInclude Include="loading_scene.h" />
+    <ClInclude Include="menu_scene.h" />
+    <ClInclude Include="model.h" />
+    <ClInclude Include="multitexture_model.h" />
+    <ClInclude Include="obj_loader.h" />
+    <ClInclude Include="options_scene.h" />
+    <ClInclude Include="particle.h" />
+    <ClInclude Include="particle_system.h" />
+    <ClInclude Include="particle_template.h" />
+    <ClInclude Include="podium_scene.h" />
+    <ClInclude Include="racer.h" />
+    <ClInclude Include="renderable.h" />
+    <ClInclude Include="particle_shader.h" />
+    <ClInclude Include="scene.h" />
+    <ClInclude Include="scene_manager.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="shader_program.h" />
+    <ClInclude Include="sky_shader.h" />
+    <ClInclude Include="sound_manager.h" />
+    <ClInclude Include="stb_image.h" />
+    <ClInclude Include="test_shader.h" />
+    <ClInclude Include="texture.h" />
+    <ClInclude Include="textured_model.h" />
+    <ClInclude Include="toolbox.h" />
+    <ClInclude Include="track.h" />
+    <ClInclude Include="tracks_scene.h" />
+    <ClInclude Include="transform.h" />
+    <ClInclude Include="transition.h" />
+    <ClInclude Include="transition_shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

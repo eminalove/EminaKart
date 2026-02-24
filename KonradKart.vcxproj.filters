@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\shaders">
+      <UniqueIdentifier>{e0b19c78-81fe-4adc-a9e4-966a610487dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shaders">
+      <UniqueIdentifier>{252f0947-3903-401a-8ba0-9738dce5ccef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\rendering">
+      <UniqueIdentifier>{0259d43e-8e8c-4c0f-82ea-51f010d20301}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entities">
+      <UniqueIdentifier>{6d6686d8-a670-4cc1-9053-9e9d874bb3e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\rendering">
+      <UniqueIdentifier>{2517f6db-ae2b-4e80-9bb0-789194ea2487}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\entities">
+      <UniqueIdentifier>{2b0b9858-9805-47d8-9b1c-7b0ff92aa107}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{a1b09053-6239-4ee7-8503-a5119d610934}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{aa3601ce-7428-4466-ad51-f1b3683cbc20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\particles">
+      <UniqueIdentifier>{ee890bf4-c055-46e7-95d6-eb3e9979d726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\particles">
+      <UniqueIdentifier>{9a76d063-0d1c-4cf2-9edc-82d51d9ce29a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\input">
+      <UniqueIdentifier>{a902a0d5-0e9c-424e-bcd3-e9a6b3b15713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\input">
+      <UniqueIdentifier>{d5cb9f8d-48f5-4d9a-8c4d-034eff2d85de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scenes">
+      <UniqueIdentifier>{d68543e6-9643-43b9-9199-eb9c6247c3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scenes">
+      <UniqueIdentifier>{2940b332-2317-4a84-8323-d6e555b47914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui\text">
+      <UniqueIdentifier>{9d11e8c5-274c-4e1f-bb5a-12df671cbda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui\text">
+      <UniqueIdentifier>{47cd4045-bcfd-4582-94ad-d2badcd2b752}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\character">
+      <UniqueIdentifier>{b541c067-1679-4c8b-bbef-cde07cfa77b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="soloud">
+      <UniqueIdentifier>{776eb13e-7e3e-4678-a2e1-27f0fa72735a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sound">
+      <UniqueIdentifier>{61258025-7806-4d9f-9be8-d2ef6b9c5fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\sound">
+      <UniqueIdentifier>{6a2cd8fc-3dc0-482b-a731-cf82e4f91b1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{fc1385f8-db64-419f-9366-46193d32e4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\track">
+      <UniqueIdentifier>{bdf283f9-a5e2-46e3-aad4-d95bbaaf2ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\track">
+      <UniqueIdentifier>{67605537-bbca-4986-b6c9-cf35f53c51c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{46f55ff2-b53f-4699-87d1-6bae10309d71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_shader.cpp">
+      <Filter>Source Files\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_program.cpp">
+      <Filter>Source Files\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="test_shader.cpp">
+      <Filter>Source Files\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>Source Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>Source Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="textured_model.cpp">
+      <Filter>Source Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="default_entity.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="entity_manager.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="gui_manager.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="gui_shader.cpp">
+      <Filter>Source Files\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="particle_system.cpp">
+      <Filter>Source Files\particles</Filter>
+    </ClCompile>
+    <ClCompile Include="controller.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="racer.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="menu_scene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="scene_manager.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="game_scene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="gui_text.cpp">
+      <Filter>Source Files\gui\text</Filter>
+    </ClCompile>
+    <ClCompile Include="transition.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="character_scene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_audiosource.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_bus.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_core_3d.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_core_basicops.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_core_faderops.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_core_filterops.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_core_getters.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_core_setters.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_core_voicegroup.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_core_voiceops.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_fader.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_fft.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_fft_lut.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_file.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_filter.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_misc.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_queue.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\soloud_thread.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\winmm\soloud_winmm.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\audiosource\wav\dr_impl.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\audiosource\wav\soloud_wav.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\audiosource\wav\soloud_wavstream.cpp">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="include\soloud\audiosource\wav\stb_vorbis.c">
+      <Filter>soloud</Filter>
+    </ClCompile>
+    <ClCompile Include="sound_manager.cpp">
+      <Filter>Source Files\sound</Filter>
+    </ClCompile>
+    <ClCompile Include="loading_scene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard_controller.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="track.cpp">
+      <Filter>Source Files\track</Filter>
+    </ClCompile>
+    <ClCompile Include="sky_shader.cpp">
+      <Filter>Source Files\shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="multitexture_model.cpp">
+      <Filter>Source Files\rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="human_racer.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu_racer.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="options_scene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="settings.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="tracks_scene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="leaderboard_scene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="podium_scene.cpp">
+      <Filter>Source Files\scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_shader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_program.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="test_shader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="obj_loader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="textured_model.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="renderable.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="default_entity.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="entity_manager.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_manager.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_shader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_object.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_image.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>Header Files\particles</Filter>
+    </ClInclude>
+    <ClInclude Include="particle_system.h">
+      <Filter>Header Files\particles</Filter>
+    </ClInclude>
+    <ClInclude Include="particle_template.h">
+      <Filter>Header Files\particles</Filter>
+    </ClInclude>
+    <ClInclude Include="particle_shader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="controller.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="transform.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="racer.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="toolbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="menu_scene.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="scene_manager.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_button.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="game_scene.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="font.h">
+      <Filter>Header Files\gui\text</Filter>
+    </ClInclude>
+    <ClInclude Include="gui_text.h">
+      <Filter>Header Files\gui\text</Filter>
+    </ClInclude>
+    <ClInclude Include="transition.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="transition_shader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="character_scene.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>Header Files\character</Filter>
+    </ClInclude>
+    <ClInclude Include="character_type.h">
+      <Filter>Header Files\character</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_audiosource.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_bassboostfilter.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_biquadresonantfilter.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_bus.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_c.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_dcremovalfilter.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_echofilter.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_error.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_fader.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_fft.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_fftfilter.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_file.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_file_hack_off.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_file_hack_on.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_filter.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_flangerfilter.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_freeverbfilter.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_internal.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_lofifilter.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_misc.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_monotone.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_noise.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_openmpt.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_queue.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_robotizefilter.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_sfxr.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_speech.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_tedsid.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_thread.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_vic.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_vizsn.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_wav.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_waveshaperfilter.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\soloud_wavstream.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\audiosource\wav\dr_flac.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\audiosource\wav\dr_mp3.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\audiosource\wav\dr_wav.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="include\soloud\audiosource\wav\stb_vorbis.h">
+      <Filter>soloud</Filter>
+    </ClInclude>
+    <ClInclude Include="sound_manager.h">
+      <Filter>Header Files\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="loading_scene.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="empty_entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard_controller.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="generic_controller.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="gamestate.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="track.h">
+      <Filter>Header Files\track</Filter>
+    </ClInclude>
+    <ClInclude Include="sky_shader.h">
+      <Filter>Header Files\shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="multitexture_model.h">
+      <Filter>Header Files\rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="human_racer.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="cpu_racer.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="options_scene.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="settings.h">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="tracks_scene.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="leaderboard_scene.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="podium_scene.h">
+      <Filter>Header Files\scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
