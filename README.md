@@ -1,4 +1,4 @@
-# KonradKart
+# EminaKart
 A Mario Kart clone written in C++ in my own engine.
 
 This was the project I used for my college coursework project. It is just like Mario Kart in that you can play with up to 4 other players using split screen, and an additional set of computer controlled racers.
