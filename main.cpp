@@ -15,7 +15,7 @@
 
 
 int main() {
-	std::cout << "Konrad Kart\n";
+	std::cout << "Emina Kart\n";
 
 	GLFWwindow* window;
 	
@@ -28,7 +28,7 @@ int main() {
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
 
 	//Create a window
-	window = glfwCreateWindow(WIDTH, HEIGHT, "Konrad Kart", NULL, NULL);
+	window = glfwCreateWindow(WIDTH, HEIGHT, "Emina Kart", NULL, NULL);
 	glfwSetWindowAttrib(window, GLFW_RESIZABLE, GLFW_FALSE);
 	glfwMakeContextCurrent(window);
 

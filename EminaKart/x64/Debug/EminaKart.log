@@ -1,0 +1,443 @@
+﻿  camera.cpp
+  character_scene.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'character_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'character_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'character_scene.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'character_scene.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'character_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         ]
+  (compiling source file 'character_scene.cpp')
+  
+  controller.cpp
+  cpu_racer.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'cpu_racer.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'cpu_racer.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'cpu_racer.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'cpu_racer.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'cpu_racer.cpp')
+  
+  default_entity.cpp
+  entity_manager.cpp
+  entity_shader.cpp
+  game_scene.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'game_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'game_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'game_scene.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'game_scene.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'game_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         ]
+  (compiling source file 'game_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(256,22): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(256,19): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(256,16): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(256,13): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(347,26): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(347,19): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(352,25): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(352,10): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(351,18): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(350,27): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(358,25): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(358,10): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(357,11): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(356,10): warning C4244: 'argument': conversion from 'float' to 'GLint', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(387,26): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\game_scene.cpp(387,19): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+  gui_manager.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'gui_manager.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'gui_manager.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'gui_manager.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'gui_manager.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'gui_manager.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_manager.cpp(142,70): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  gui_shader.cpp
+  gui_text.cpp
+  human_racer.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'human_racer.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'human_racer.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'human_racer.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'human_racer.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'human_racer.cpp')
+  
+  dr_impl.cpp
+  soloud_wav.cpp
+  soloud_wavstream.cpp
+  soloud.cpp
+  soloud_audiosource.cpp
+  soloud_bus.cpp
+  soloud_core_3d.cpp
+  soloud_core_basicops.cpp
+  Generating Code...
+  Compiling...
+  soloud_core_faderops.cpp
+  soloud_core_filterops.cpp
+  soloud_core_getters.cpp
+  soloud_core_setters.cpp
+  soloud_core_voicegroup.cpp
+  soloud_core_voiceops.cpp
+  soloud_fader.cpp
+  soloud_fft.cpp
+  soloud_fft_lut.cpp
+  soloud_file.cpp
+  soloud_filter.cpp
+  soloud_misc.cpp
+  soloud_queue.cpp
+  soloud_thread.cpp
+  soloud_winmm.cpp
+  keyboard_controller.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\keyboard_controller.cpp(33,25): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\keyboard_controller.cpp(33,25): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\keyboard_controller.cpp(33,25): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\keyboard_controller.cpp(33,25): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\keyboard_controller.cpp(33,25): warning C4244:         ]
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\keyboard_controller.cpp(34,25): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\keyboard_controller.cpp(34,25): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\keyboard_controller.cpp(34,25): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\keyboard_controller.cpp(34,25): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\keyboard_controller.cpp(34,25): warning C4244:         ]
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\keyboard_controller.cpp(26,6): warning C4101: 'axes_count': unreferenced local variable
+  leaderboard_scene.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'leaderboard_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'leaderboard_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'leaderboard_scene.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'leaderboard_scene.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'leaderboard_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         ]
+  (compiling source file 'leaderboard_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\leaderboard_scene.cpp(80,25): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\leaderboard_scene.cpp(80,25): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\leaderboard_scene.cpp(80,25): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\leaderboard_scene.cpp(80,25): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\leaderboard_scene.cpp(80,25): warning C4244:         ]
+  loading_scene.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'loading_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'loading_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'loading_scene.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'loading_scene.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'loading_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         ]
+  (compiling source file 'loading_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\loading_scene.cpp(112,34): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\loading_scene.cpp(112,34): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\loading_scene.cpp(112,34): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\loading_scene.cpp(112,34): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\loading_scene.cpp(112,34): warning C4244:         ]
+  main.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'main.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'main.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         ]
+  (compiling source file 'main.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\main.cpp(31,35): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\main.cpp(31,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\main.cpp(45,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\main.cpp(45,18): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\main.cpp(72,26): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\main.cpp(72,19): warning C4244: 'argument': conversion from 'float' to 'GLsizei', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\main.cpp(99,11): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\main.cpp(110,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  menu_scene.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'menu_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'menu_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'menu_scene.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'menu_scene.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'menu_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         ]
+  (compiling source file 'menu_scene.cpp')
+  
+  Generating Code...
+  Compiling...
+  model.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\model.cpp(4,33): warning C4267: '=': conversion from 'size_t' to 'gvar', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\model.cpp(5,31): warning C4267: '=': conversion from 'size_t' to 'gvar', possible loss of data
+  multitexture_model.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\multitexture_model.cpp(25,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  options_scene.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'options_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'options_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'options_scene.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'options_scene.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'options_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         ]
+  (compiling source file 'options_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\options_scene.cpp(129,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\options_scene.cpp(135,12): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  particle_system.cpp
+  podium_scene.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'podium_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'podium_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'podium_scene.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'podium_scene.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'podium_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         ]
+  (compiling source file 'podium_scene.cpp')
+  
+  racer.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'racer.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'racer.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'racer.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'racer.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'racer.cpp')
+  
+  scene_manager.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'scene_manager.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'scene_manager.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'scene_manager.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'scene_manager.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'scene_manager.cpp')
+  
+  settings.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'settings.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+  shader_program.cpp
+  sky_shader.cpp
+  sound_manager.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'sound_manager.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+  test_shader.cpp
+  texture.cpp
+  textured_model.cpp
+  track.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'track.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'track.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'track.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'track.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+  tracks_scene.cpp
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(8,16): warning C4091: 'static ': ignored on left of 'OBJLoader::Vertex' when no variable is declared
+  (compiling source file 'tracks_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(59,35): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'tracks_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\obj_loader.h(112,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'tracks_scene.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\shared\minwindef.h(130,9): warning C4005: 'APIENTRY': macro redefinition
+  (compiling source file 'tracks_scene.cpp')
+      C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\include\glad\glad.h(32,9):
+      see previous definition of 'APIENTRY'
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\toolbox.h(80,14): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'tracks_scene.cpp')
+  
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244: '=': conversion from 'double' to 'T', possible loss of data
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         with
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         [
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:             T=float
+C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\gui_button.h(36,33): warning C4244:         ]
+  (compiling source file 'tracks_scene.cpp')
+  
+  transition.cpp
+  Generating Code...
+  glad.c
+  stb_vorbis.c
+  Generating Code...
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  EminaKart.vcxproj -> C:\Users\davko\OneDrive\NewDocuments\github\KonradKart\x64\Debug\EminaKart.exe
